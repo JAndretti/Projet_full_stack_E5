@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Resto</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <h1 id="user_title">Loading Stuff...</h1>
+    <a href='/index.html' class="button">Accueil</a>
+    <!-- <a href='/NouveauRestaurant.html' class="button">Nouveau Restaurant</a> -->
+    <hr>
+
+
+    <div id="restaurant"></div>
+
+</body>
+
+
+<script>
+    var url = new URL(window.location.href);
+    var restaurant = url.searchParams.get('restaurant');
+
+
+    function setTitle(num){
+        document.getElementById('user_title').innerHTML = 
+        ` ${num} Voici le Restaurant trouvé à ce nom : ${restaurant}`;
+    }
+
+    function PLotResto(data){
+        console.log(data);
+        document.getElementById('restaurant').innerHTML += 
+            `<div class="note_container">
+                <textarea class="${data[0]}" cols="80" rows="10" readonly="">`+
+                    `Nom: ${data['nom']}\n` + 
+                    `Quartier: ${data['quartier']}\n` +
+                    `Adresse: ${data['adresse']}\n` +
+                    `Ville: ${data['ville']}\n` +
+                    `Coordonnées: ${data['coord']}\n` +
+                    `Type: ${data['type']}\n` +
+                    
+//`${data['text']}\n`+
+                `</textarea>
+            </div>
+            <hr>
+        `;
+    }
+
+    
+
+    // function Edit(note_id){
+    //     window.location.href = `/Edit.html?note_id=${note_id}&username=${username}`;
+    // }function Delete(note_id){
+    //     if(confirm('Are you sure...')){
+
+    //         $.get(`/api/delete/${note_id}`, function(data, status){
+    //             window.location.href = window.location.href;
+    //         });
+    //     }
+    // }
+
+    $.get('/api/resto/'+restaurant, function(data, status){
+        console.log('Length: '+ data.length);
+        console.table(data);
+
+
+        setTitle(data.length);
+        data.forEach(function(x,i){PLotResto(x);});
+    });
+
+
+</script>
+</html>
