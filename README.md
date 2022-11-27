@@ -32,7 +32,7 @@ Rendez-vous à l'adresse : http://localhost:8000/
 
 ![alt text](https://github.com/JAndretti/Projet_full_stack_E5/blob/main/Resto/photos/accueil.png)
 
-Nous vous invitons à naviguer à travers le site pour découvire toutes les fonctionalités citée précédement.
+Nous vous invitons à naviguer à travers le site pour découvire toutes les fonctionalités citées précédement.
 
 
 ## Architechture du site : 
