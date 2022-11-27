@@ -9,6 +9,8 @@ Sur le site web, vous pourrez trouver un restaurant sur Paris. Vous pourrez donc
 
 Dans le futur nous voulons étendre notre projet à plus de ville et donc il sera possible de faire des recherches par ville ainsi que des recherches combinées par exemple par ville et par quartier en même temps pour ne sélectionner que les quartiers de la ville sélectionnée. Nous allons aussi rajouter un onglet qui permettra de montrer tous les restaurants présents dans la base de données ou/et un bouton permettant de sélectionner aléatoirement un restaurant pour ne pas avoir à prendre de décision et se laisser guider. Il pourrait aussi être utile de rajouter une fonction avis.
 
+Lien vers la source de la base de données : https://opendata.paris.fr/explore/dataset/restaurants-casvp/table/?disjunctive.code&disjunctive.nom_restaurant&disjunctive.type
+
 ## Pour lancer le projet :
 
 ### Pré-requis
