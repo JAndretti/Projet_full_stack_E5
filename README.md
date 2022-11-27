@@ -1,40 +1,40 @@
 # Projet full stack E5
-_(juste en dessous des badges sympatiques à placer)_
 
-[![forthebadge](paris.fr/explore/dataset/restaurants-casvp/table/?disjunctive.code&disjunctive.nom_restaurant&disjunctive.type)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
 
-Une petite description du projet
+Ce projet à pour but de dévelloper une application full stack en utilisant une base de donnée (postgresql) une api (fastapi) et un front (ngnix) bien séparés, le tous initialisé et lancé depuis un docker compose.
 
-## Pour commencer
+## Notre projet :
 
-Entrez ici les instructions pour bien débuter avec votre projet...
+Sur le site web vous pourrez trouver un restaurant sur paris. Vous pourrez donc faire ne recherche par quartier, ou directement par le nom du restaurant si vous le connaissez. Lorsque vous faites une recherche vous allez tomber sur les infos du ou des restaurants qui correspondent à votre recherche, comme par exemple, le quartier, les coordonnées, le type de restaurant. Si vous connaissez un restaurant qui n'est pas dans notre base de données il y a aussi la possibilité de le rajouter. 
+
+Dans le futur nous voulons étendre notre projet à plus de ville et donc il sera possible de faire des recherches par ville
+
+## Pour lancer le projet :
 
 ### Pré-requis
+Il suffit simplement d'installer docker sur votre machine
 
-Ce qu'il est requis pour commencer avec votre projet...
+### Initialisation
+Tous d'abord clonez le repository : 
 
-- Programme 1
-- Programme 2
-- etc...
+``git clone https://github.com/JAndretti/Projet_full_stack_E5.git``
 
-### Installation
+Ensuite, dans un terminal placez vous dans le répertoire : ``Resto``
 
-Les étapes pour installer votre programme....
+Et enfin lancez le projet : 
 
-Dites ce qu'il faut faire...
+``docker compose up --build``
 
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
+Rendez-vous à l'adresse : http://localhost:8000/
 
 
-Ensuite vous pouvez montrer ce que vous obtenez au final...
+## Une fois que vous êtes à cette adresse vous devriez voir ceci :
 
-## Démarrage
+#Insert photos
 
-Dites comment faire pour lancer votre projet
+Nous vous invitons à naviguer à travers le site pour découvire toutes les fonctionalités par vous même.
 
-## Fabriqué avec
 
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
 
 _exemples :_
 * [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
