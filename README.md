@@ -30,14 +30,14 @@ Rendez-vous à l'adresse : http://localhost:8000/
 
 ## Une fois que vous êtes à cette adresse vous devriez voir ceci :
 
-#Insert photos
+![alt text](https://github.com/JAndretti/Projet_full_stack_E5/blob/main/Resto/photos/accueil.png)
 
-Nous vous invitons à naviguer à travers le site pour découvire toutes les fonctionalités citée précédement.
+Nous vous invitons à naviguer à travers le site pour découvire toutes les fonctionalités citées précédement.
 
 
 ## Architechture du site : 
 
-#Insert photos lucid chart
+![alt text](https://github.com/JAndretti/Projet_full_stack_E5/blob/main/Resto/photos/sch%C3%A9ma.png)
 
 ## Problème : 
 
