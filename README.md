@@ -7,7 +7,7 @@ Ce projet à pour but de dévelloper une application full stack en utilisant une
 
 Sur le site web vous pourrez trouver un restaurant sur paris. Vous pourrez donc faire ne recherche par quartier, ou directement par le nom du restaurant si vous le connaissez. Lorsque vous faites une recherche vous allez tomber sur les infos du ou des restaurants qui correspondent à votre recherche, comme par exemple, le quartier, les coordonnées, le type de restaurant. Si vous connaissez un restaurant qui n'est pas dans notre base de données il y a aussi la possibilité de le rajouter. 
 
-Dans le futur nous voulons étendre notre projet à plus de ville et donc il sera possible de faire des recherches par ville
+Dans le futur nous voulons étendre notre projet à plus de ville et donc il sera possible de faire des recherches par ville ainsi que des recherches combinées par exemple par ville et par quartier en même temps pour ne sélectionner que les quartiers de la villes sélectionnées. Nous allons aussi rajouter un onglet qui permettra de montrer tous les restaurants présent dans la base de données ou/et un bouton permettant de sélectionner aléatoirement un restaurant pour ne pas à avoir de prendre de décision et de se laisser guider. Il pourrait aussi être utile de rajouter une fonction avis.
 
 ## Pour lancer le projet :
 
@@ -32,30 +32,16 @@ Rendez-vous à l'adresse : http://localhost:8000/
 
 #Insert photos
 
-Nous vous invitons à naviguer à travers le site pour découvire toutes les fonctionalités par vous même.
+Nous vous invitons à naviguer à travers le site pour découvire toutes les fonctionalités citée précédement.
+
+
+## Architechture du site : 
+
+#Insert photos lucid chart
+
+## Problème : 
+
+Lors de l'ajout d'un nouvau restaurant, nous rencontrons plusieurs problèmes, le nom du restaurant n'est pas correctement enregistré et nous ne pouvons pas afficher le restaurant si on le recherche par nom alors que si on le recherche par quartier il apparait.
 
 
 
-_exemples :_
-* [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
-* [Atom](https://atom.io/) - Editeur de textes
-
-## Contributing
-
-Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
-
-## Versions
-Listez les versions ici 
-_exemple :_
-**Dernière version stable :** 5.0
-**Dernière version :** 5.1
-Liste des versions : [Cliquer pour afficher](https://github.com/your/project-name/tags)
-_(pour le lien mettez simplement l'URL de votre projets suivi de ``/tags``)_
-
-## Auteurs
-Listez le(s) auteur(s) du projet ici !
-* **Jhon doe** _alias_ [@outout14](https://github.com/outout14)
-
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
-
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
