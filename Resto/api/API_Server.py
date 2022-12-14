@@ -12,8 +12,7 @@ app = FastAPI()
 db.CreateTable()
 db_cols = [
     'nom', 'quartier', 'adresse', 
-    'ville', 'coord', 'type'
-]
+    'ville', 'coord', 'type']
 
 @app.get('/')
 def Home():
